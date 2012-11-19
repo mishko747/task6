@@ -74,9 +74,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\StackArr\StackArr.h" />
     <ClInclude Include="task6_2.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\StackArr\StackArr.cpp" />
     <ClCompile Include="task6_2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -14,7 +14,7 @@
 #define CONTINUE printf("Press any key to continue of ESC to exit...")	// message
 
 /**
-* @brief	This feature provides the correct input string
+* @brief	This function provides the correct input string
 * @param	[in, out]	*pStr Pointer to an array of characters
 * @return	void
 */

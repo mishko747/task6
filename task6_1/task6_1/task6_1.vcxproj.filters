@@ -21,7 +21,7 @@
     <ClInclude Include="task6_1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="StackArr.h">
+    <ClInclude Include="..\..\StackArr\StackArr.h">
       <Filter>StackArr</Filter>
     </ClInclude>
   </ItemGroup>
@@ -29,7 +29,7 @@
     <ClCompile Include="task6_1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StackArr.cpp">
+    <ClCompile Include="..\..\StackArr\StackArr.cpp">
       <Filter>StackArr</Filter>
     </ClCompile>
   </ItemGroup>

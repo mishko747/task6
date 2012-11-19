@@ -13,15 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="StackArr">
+      <UniqueIdentifier>{746c6461-5a4d-4755-9946-60dfefa6ae87}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="task6_2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\StackArr\StackArr.h">
+      <Filter>StackArr</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="task6_2.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\StackArr\StackArr.cpp">
+      <Filter>StackArr</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

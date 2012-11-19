@@ -6,14 +6,14 @@
  */
 
 #include "task6_1.h"
-#include "StackArr.h"
+#include "../../StackArr/StackArr.h"
 
 #include <stdlib.h>
 #include <conio.h>
 #include <stdio.h>
 #include <string.h>
 
-// This feature provides the correct input string
+// This function provides the correct input string
 void InputStr ( char *pStr, const unsigned char max_len )
 {
 	printf("Enter the string (max length %hhu): ", max_len);
